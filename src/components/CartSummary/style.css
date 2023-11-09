@@ -1,0 +1,79 @@
+.cart-summary {
+  background-color: #fff;
+  padding: 50px 20px 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.summary {
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.cart-summary-items-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.cart-summary-items,
+.cart-summary-price,
+.total-price,
+.total-value {
+  font-size: 20px;
+  color: #000;
+}
+
+.cart-summary-coupon{
+    margin: 30px 0px;
+}
+.coupon-text{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.coupon-code-wrapper {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.coupon-code{
+    height: 40px;
+    width: 90%;
+    max-width: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    user-select: none;
+}
+.coupon-code-btn{
+    display: inline-flex;
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #999;
+    background-color: #f1f1f1;
+    border-left: 1px solid #ccc;
+}
+
+
+.total-price-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid #f1f1f1;
+}
+
+.checkout-button {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #999;
+  font-size: 16px;
+  margin-top: 40px;
+  cursor: pointer;
+}

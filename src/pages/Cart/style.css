@@ -1,0 +1,25 @@
+.cart-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.cart-left {
+  width: 70%;
+  margin-right: 30px;
+}
+.cart-right {
+  width: 30%;
+}
+@media (max-width: 1023px) {
+  .cart-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .cart-left {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .cart-right {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}

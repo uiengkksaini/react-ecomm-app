@@ -1,0 +1,29 @@
+.header {
+    position: sticky;
+    top: 0px;
+    z-index: 1020;
+    background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1368px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu-item a {
+    text-decoration: none;
+    padding: 10px;
+}
